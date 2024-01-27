@@ -1,0 +1,133 @@
+body {
+  background-color: #fff;
+  color: #1b1f21;
+  font-family: "Roboto", sans-serif;
+}
+
+/*CONTAINER GENERAL*/
+.container {
+  display: flex;
+  flex: 100%;
+}
+
+/*BARRA LATERAL IZQUIERDA*/
+.nav-lateral {
+  background-color: #fff;
+  color: #1b1f21;
+  display: flex;
+  flex: 20%;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.contacto,
+.cajita {
+  display: flex;
+  border: 1px solid #bec1bb;
+  justify-content: space-between;
+  padding: 10px;
+  flex-direction: row;
+}
+.contacto i,
+.cajita i {
+  color: #bec1bb;
+}
+
+.contacto img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  align-self: center;
+}
+
+.text,
+.text2 {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+.text h2,
+.text2 h2 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.text p {
+  margin: 0;
+  color: #bec1bb;
+  font-size: 10px;
+}
+
+.chatroom {
+  border: 1px solid #bec1bb;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat {
+  background-color: #a491d2;
+  color: #fff;
+  font-size: 16px;
+  white-space: nowrap;
+  padding: 20px 80px;
+  border: none;
+  cursor: pointer;
+}
+
+.text2 p {
+  margin: 0;
+  color: #1b1f21;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.cajita img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+/*CONTENEDOR LATERAL DERECHO*/
+
+.lateral-der {
+  background-color: #e8ebe4;
+  color: #1b1f21;
+  display: flex;
+  flex: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.lateral-der img {
+  height: 300px;
+}
+
+.lateral-der p {
+  font-size: 16px;
+  font-weight: 400;
+  height: 50px;
+  width: 450px;
+  text-align: center;
+  margin: 10px;
+}
+
+.lateral-der h1 {
+  font-size: 45px;
+  font-weight: 400;
+  text-align: center;
+}
